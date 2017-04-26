@@ -1,0 +1,43 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem16
+SILevel=0
+MFTimer=2
+CreationTime=01CD9B495C935610
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 46 1 46 'FORMAT{space}ERROR{\x000D}{space}{space}{space}{space}{space}{space}{apostrophe}I{apostrophe}{space}{quad}FMT{space}2*1000{\x000D}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{upcaret}'
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:5=V C 0 1 0 ''
+:7=F 7.problem16
+Count=8
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:5
+10={quad}pp=I 1 0 10
+11={quad}pr=:5
+12={quad}pw=I 1 0 89
+13={quad}rl=I 1 0 16807
+14={quad}sa=:5
+Count=15
+[7.problem16]
+0=Z{space}{leftarrow}{space}problem16
+1=Z{space}{leftarrow}{space}+/{space}{uptackjot}{dieresis}{apostrophe}I302{apostrophe}{space}{quad}FMT{space}2*1000{space}{lamp}{space}1366.
+Count=2
+UserDefined=1
+Undo=26 D 0 1 1, D 1 2 2, D 2 3 3, D 3 4 4, D 4 5 5, D 5 6 6, D 6 7 7, D 7 8 8, D 8 9 9, D 9 10 10, D 10 11 11, D 11 12 12, D 12 13 13, D 13 15 0, D 15 44 14, D 15 16 15, D 16 17 16, D 17 18 17, D 18 19 18, D 42 43 19, D 43 44 20, D 44 45 21, S 45 47 22, I 45 0 22 '\r', I 45 0 22 '\n', D 49 50 23
+CreationTime=01CD9B4951A5F140
+LastModTime=01CD9B4951A5F140
+[Fcns.0]
+0=problem16=2=:7
+Count=1

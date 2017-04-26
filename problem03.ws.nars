@@ -1,0 +1,42 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem03
+SILevel=0
+MFTimer=2
+CreationTime=01CD980BE4635630
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 0 1 0 ''
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:6=F 6.problem03
+Count=7
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:1
+10={quad}pp=I 1 0 10
+11={quad}pr=:1
+12={quad}pw=I 1 0 168
+13={quad}rl=I 1 0 16807
+14={quad}sa=:1
+Count=15
+[6.problem03]
+0=Z{space}{leftarrow}{space}problem03
+1=Z{space}{leftarrow}{space}{upstile}/{space}{pi}{space}600851475143{space}{lamp}{space}6857.
+Count=2
+UserDefined=1
+Undo=30 D 0 1 1, D 1 2 2, D 2 3 3, D 3 4 4, D 4 5 5, S 4 5 6, I 4 0 6 'P', D 4 5 7, D 5 6 8, D 6 7 9, D 7 8 10, D 8 9 11, D 9 10 12, D 10 11 13, D 11 12 14, D 12 13 15, D 13 15 0, D 15 32 16, D 15 16 17, D 16 17 18, D 17 18 19, D 18 19 20, D 36 37 21, D 37 38 22, D 38 39 23, D 39 40 24, D 40 41 25, D 41 42 26, D 42 43 27, D 43 44 28
+CreationTime=01CD980BD7377310
+LastModTime=01CD980BD7377310
+[Fcns.0]
+0=problem03=2=:6
+Count=1

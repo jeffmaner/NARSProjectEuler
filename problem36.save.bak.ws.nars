@@ -1,0 +1,81 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem36
+SILevel=0
+MFTimer=2
+CreationTime=01CD9CCC6414AB30
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 60 1 60 'VALENCE{space}ERROR{\x000D}{space}{space}{space}{space}{space}{space}(isPalindrome2{space}antibase2){dieresis}{space}{iota}1e2{\x000D}{space}{space}{space}{space}{space}{space}{space}{upcaret}'
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:5=V C 0 1 0 ''
+:7=F 7.antibase2
+:9=F 9.isPalindrome
+:11=F 11.isPalindrome2
+:12=V A 1000000 1 1000000 (PV1) 1 1
+:14=F 14.problem36
+Count=15
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:5
+10={quad}pp=I 1 0 10
+11={quad}pr=:5
+12={quad}pw=I 1 0 89
+13={quad}rl=I 1 0 16807
+14={quad}sa=:5
+15=X=I 1 0 5
+16=N=:12
+Count=17
+[7.antibase2]
+0=Z{space}{leftarrow}{space}antibase2{space}{omega}
+1=Z{space}{leftarrow}{space}{downtackjot}10{uptack}((1+{upstile}2{circlestar}{upstile}/,{omega}){rho}2){downtack}{omega}
+Count=2
+UserDefined=1
+Undo=12 D 15 17 0, D 17 18 1, D 18 19 2, D 19 20 3, D 20 21 4, D 21 42 5, S 41 42 6, I 41 0 6 'X', D 41 42 7, S 35 36 8, I 35 0 8 'X', D 35 36 9
+CreationTime=01CD9CC95ACB12B0
+LastModTime=01CD9CC95ACB12B0
+[Fcns.0]
+0=antibase2=3=:7
+1=isPalindrome=3=:9
+2=isPalindrome2=3=:11
+3=problem36=2=:14
+Count=4
+[9.isPalindrome]
+0=Z{space}{leftarrow}{space}isPalindrome{space}{omega};digits;reversed
+1=digits{space}{space}{space}{leftarrow}{space}{uptackjot}{dieresis}{downtackjot}{omega}
+2=reversed{space}{leftarrow}{space}{circlestile}digits
+3=Z{space}{leftarrow}{space}digits{space}{equalunderbar}{space}reversed
+Count=4
+UserDefined=1
+Undo=108 D 18 20 0, D 20 21 1, D 21 22 2, D 22 23 3, D 23 24 4, D 18 20 0, D 20 21 5, D 21 22 6, D 22 23 7, D 23 24 8, D 24 25 9, D 25 26 10, D 18 20 0, D 20 21 11, D 21 22 12, D 22 23 13, D 23 24 14, D 24 25 15, D 25 26 16, D 34 35 17, D 35 36 18, S 35 36 19, I 35 0 19 '{space}', D 35 36 20, D 36 37 21, D 37 38 22, D 38 40 0, D 40 41 23, D 41 42 24, D 42 43 25, D 43 44 26, D 44 45 27, D 45 46 28, S 45 46 29, I 45 0 29 'e', D 45 46 30, D 46 47 31, D 47 48 32, D 48 49 33, D 49 50 34, D 50 51 35, D 51 52 36, D 52 53 37, D 53 54 38, D 54 55 39, D 55 56 40, D 62 63 41, D 63 64 42, D 64 65 43, D 65 66 44, D 66 67 45, D 67 68 46, D 68 69 47, D 69 70 48, D 70 71 49, D 71 72 50, D 70 71 51, S 70 71 52, I 70 0 52 'v', D 70 71 53, D 73 74 54, D 74 75 55, D 75 76 56, D 76 77 57, D 77 78 58, D 78 79 59, S 69 70 60, I 69 0 60 '{notequalunderbar}', D 69 70 60, S 37 38 61, I 37 0 61 's', D 37 38 62, D 38 39 63, S 20 26 64, I 20 0 64 's', I 20 0 64 '{space}', I 20 0 64 '{leftarrow}', I 20 0 64 '{space}', I 20 0 64 '{downtackjot}', I 20 0 64 '{omega}', S 18 20 65, I 18 0 65 '\r', I 18 0 65 '\n', D 18 19 66, D 19 20 67, D 20 21 68, D 21 22 69, D 22 23 70, D 23 24 71, D 24 25 72, D 25 26 73, D 26 27 74, D 27 28 75, D 28 29 76, D 29 30 77, D 30 31 78, D 31 32 79, D 32 33 80, D 33 34 81, D 42 43 82, D 43 44 83, D 44 45 84, D 60 61 85, D 62 63 86, D 47 48 87, S 47 48 89, I 47 0 89 '{space}', D 46 47 90
+CreationTime=01CD9CCA185B83F0
+LastModTime=01CD9CCA185B83F0
+[11.isPalindrome2]
+0=Z{space}{leftarrow}{space}isPalindrome2{space}{omega}
+1=Z{space}{leftarrow}{space}{omega}{equalunderbar}{circlestile}{omega}
+Count=2
+UserDefined=1
+Undo=12 D 19 21 0, D 21 22 1, S 21 22 2, I 21 0 2 'z', D 21 22 3, D 22 23 4, D 23 24 5, D 24 25 6, D 25 26 7, D 26 27 8, D 27 28 9, D 28 29 10
+CreationTime=01CD9CCA3ED31480
+LastModTime=01CD9CCA3ED31480
+[14.problem36]
+0=Z{space}{leftarrow}{space}problem36
+1=Z{space}{leftarrow}{space}+/{space}((isPalindrome{space}{upcaret}{space}(isPalindrome2{space}{jot}{space}antibase2)){dieresis}N)/N{leftarrow}{iota}1e6{space}{lamp}{space}286602.
+2={lamp}{space}This{space}answer{space}is{space}incorrect.{space}But{space}I{apostrophe}m{space}not{space}sure{space}what{apostrophe}s{space}wrong{space}with{space}the{space}code.
+3={lamp}{space}Hmm...{space}My{space}translation{space}of{space}Roger{space}Hui{apostrophe}s{space}J{space}code{space}also{space}gives{space}this{space}answer.
+4={lamp}{space}Z{space}{leftarrow}{space}+/{space}{iotaunderbar}{space}(({equalunderbar}{circlestile}){jot}antibase2{space}{upcaret}{space}({equalunderbar}{circlestile}){jot}{downtackjot}){dieresis}{iota}1e6
+Count=5
+UserDefined=1
+Undo=207 D 0 1 1, D 1 2 2, D 2 3 3, D 3 4 4, D 4 5 5, D 5 6 6, D 6 7 7, D 7 8 8, D 8 9 9, D 9 10 10, D 10 11 11, D 11 12 12, D 12 13 13, D 13 15 0, D 15 81 14, D 15 16 15, D 16 17 16, D 17 18 17, D 18 19 18, S 77 79 19, I 77 0 19 '\r', I 77 0 19 '\n', D 77 78 20, D 78 79 21, D 79 80 22, D 86 87 23, D 87 89 0, D 89 90 24, D 90 91 25, D 91 92 26, D 92 93 27, D 93 94 28, D 94 95 29, D 95 96 30, D 96 97 31, D 97 98 32, D 98 99 33, D 99 100 34, D 100 101 35, D 101 102 36, D 102 103 37, S 102 103 38, I 102 0 38 '{space}', S 101 102 39, I 101 0 39 'e', S 100 101 40, I 100 0 40 'h', S 99 100 41, I 99 0 41 't', S 98 99 42, I 98 0 42 '{space}', S 97 98 43, I 97 0 43 's', S 96 97 44, I 96 0 44 'i', D 96 97 45, D 97 98 46, D 98 99 47, D 99 100 48, D 100 101 49, D 101 102 50, D 102 103 51, D 103 104 52, D 104 105 53, D 105 106 54, D 106 107 55, D 107 108 56, D 108 109 57, D 109 110 58, D 110 111 59, D 111 112 60, D 112 113 61, D 113 114 62, D 114 115 63, D 115 116 64, D 116 117 65, D 117 118 66, D 118 119 67, D 119 120 68, D 120 121 69, D 121 122 70, D 122 123 71, D 123 124 72, D 124 125 73, D 125 126 74, D 126 127 75, D 127 128 76, D 128 129 77, D 129 130 78, D 130 131 79, D 131 132 80, D 132 133 81, D 133 134 82, D 134 135 83, D 135 136 84, D 136 137 85, D 137 138 86, D 138 139 87, D 139 140 88, D 140 141 89, D 141 142 90, D 142 143 91, D 143 144 92, D 144 145 93, D 145 146 94, D 146 147 95, D 147 148 96, D 148 149 97, D 149 150 98, D 150 151 99, D 151 152 100, D 152 153 101, D 153 154 102, D 154 155 103, D 155 156 104, D 156 157 105, D 157 158 106, S 157 158 107, I 157 0 107 'd', S 156 157 108, I 156 0 108 'o', D 156 157 109, D 157 158 110, D 158 159 111, D 159 160 112, D 160 161 113, S 150 151 114, I 150 0 114 '{space}', D 151 152 115, D 161 163 0, D 163 164 116, D 164 165 117, D 165 166 118, D 166 167 119, D 167 168 120, D 168 169 121, D 169 170 122, D 170 171 123, D 171 172 124, D 172 173 125, D 173 174 126, D 174 175 127, D 175 176 128, D 176 177 129, D 177 178 130, D 178 179 131, D 179 180 132, D 180 181 133, D 181 182 134, D 182 183 135, D 183 184 136, D 184 185 137, D 185 186 138, D 186 187 139, D 187 188 140, D 188 189 141, D 189 190 142, D 190 191 143, D 191 192 144, D 192 193 145, D 193 194 146, D 194 195 147, D 195 196 148, D 196 197 149, D 197 198 150, D 198 199 151, D 199 200 152, D 200 201 153, D 201 202 154, D 202 203 155, D 203 204 156, D 204 205 157, D 205 206 158, D 206 207 159, D 207 208 160, D 208 209 161, D 209 210 162, D 210 211 163, D 211 212 164, D 212 213 165, D 213 214 166, D 214 215 167, D 215 216 168, D 216 217 169, D 217 218 170, D 218 219 171, D 219 220 172, D 220 221 173, D 221 222 174, D 222 223 175, D 223 224 176, D 224 225 177, D 225 226 178, D 226 227 179, D 227 228 180, D 228 229 181, D 229 230 182, D 230 231 183, D 231 232 184, D 232 234 0, D 234 235 185, D 235 236 186, D 236 237 187, D 237 238 188, D 238 239 189, D 239 240 190, D 240 275 191
+CreationTime=01CD9CCBCCAC7200
+LastModTime=01CD9CCC4B880800

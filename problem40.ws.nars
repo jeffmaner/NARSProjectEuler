@@ -1,0 +1,43 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem40
+SILevel=0
+MFTimer=2
+CreationTime=01CD9CE01FC9AB10
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 68 1 68 'INDEX{space}ERROR{\x000D}{space}{space}{space}{space}{space}{space}{times}/{space}{uptackjot}({apostrophe}{space}{apostrophe}{tilde}{dieresistilde}{downtackjot}{iota}2e5)[10*{iota}7]{\x000D}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{upcaret}'
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:5=V C 0 1 0 ''
+:7=F 7.problem40
+Count=8
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:5
+10={quad}pp=I 1 0 10
+11={quad}pr=:5
+12={quad}pw=I 1 0 150
+13={quad}rl=I 1 0 16807
+14={quad}sa=:5
+Count=15
+[7.problem40]
+0=Z{space}{leftarrow}{space}problem40
+1=Z{space}{leftarrow}{space}{times}/{space}{uptackjot}({apostrophe}{space}{apostrophe}{tilde}{dieresistilde}{downtackjot}{iota}2e5)[10*{iota}7]{space}{lamp}{space}Not{space}sure{space}why{space}I{space}get{space}an{space}Index{space}Error{space}on{space}this.{space}But{space}I{space}think{space}this{space}should{space}result{space}in{space}the{space}answer.
+Count=2
+UserDefined=1
+Undo=119 D 0 1 1, D 1 2 2, D 2 3 3, D 3 4 4, D 4 5 5, D 5 6 6, D 6 7 7, D 7 8 8, D 8 9 9, D 9 10 10, D 10 11 11, D 11 12 12, D 12 13 13, D 13 14 14, S 13 14 15, I 13 0 15 '0', S 12 13 16, I 12 0 16 '4', S 11 12 17, I 11 0 17 '{space}', D 11 12 18, D 12 13 19, D 13 15 0, D 15 16 20, D 16 17 21, D 17 18 22, D 18 19 23, D 19 42 24, D 42 43 25, D 43 44 26, D 44 45 27, D 45 46 28, D 46 47 29, D 47 48 30, D 48 49 31, D 49 50 32, D 50 51 33, D 51 52 34, D 52 53 35, D 53 54 36, D 54 55 37, D 55 56 38, D 56 57 39, D 57 58 40, D 58 59 41, D 59 60 42, D 60 61 43, D 61 62 44, D 62 63 45, D 63 64 46, D 64 65 47, D 65 66 48, D 66 67 49, D 67 68 50, D 68 69 51, D 69 70 52, D 70 71 53, D 71 72 54, D 72 73 55, D 73 74 56, D 74 75 57, D 75 76 58, D 76 77 59, D 77 78 60, D 78 79 61, D 79 80 62, D 80 81 63, D 81 82 64, D 82 83 65, D 83 84 66, D 84 85 67, D 85 86 68, D 86 87 69, D 87 88 70, D 88 89 71, D 89 90 72, D 90 91 73, D 91 92 74, D 92 93 75, D 93 94 76, D 94 95 77, D 95 96 78, D 96 97 79, D 97 98 80, D 98 99 81, D 99 100 82, D 100 101 83, D 101 102 84, D 102 103 85, D 103 104 86, D 104 105 87, D 105 106 88, D 106 107 89, D 107 108 90, D 108 109 91, D 109 110 92, D 110 111 93, D 111 112 94, D 112 113 95, D 113 114 96, D 114 115 97, D 115 116 98, D 116 117 99, D 117 118 100, D 118 119 101, D 119 120 102, D 120 121 103, D 121 122 104, D 122 123 105, D 123 124 106, D 124 125 107, D 125 126 108, D 126 127 109, D 127 128 110, D 128 129 111, D 129 130 112, D 130 131 113, D 131 132 114, D 132 133 115
+CreationTime=01CD9CE0192BA330
+LastModTime=01CD9CE0192BA330
+[Fcns.0]
+0=problem40=2=:7
+Count=1

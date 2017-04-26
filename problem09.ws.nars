@@ -1,0 +1,64 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem09
+SILevel=0
+MFTimer=2
+CreationTime=01CD9B268528AB70
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 0 1 0 ''
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:7=F 7.PENINE
+Count=8
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:1
+10={quad}pp=I 1 0 10
+11={quad}pr=:1
+12={quad}pw=I 1 0 136
+13={quad}rl=I 1 0 16807
+14={quad}sa=:1
+15=A=I 1 0 200
+16=N=I 1 0 1000
+17=B=I 1 0 375
+18=C=I 1 0 425
+19=TRIPLES=:5
+Count=20
+[7.PENINE]
+0=R{leftarrow}PENINE;N;A;B;C;TRIPLES;{quad}IO
+1={quad}IO{leftarrow}1
+2=
+3={lamp}{space}http://my.opera.com/arcfide/blog/2011/03/06/apl-hacking-project-euler-daily-9
+4=
+5={lamp}{space}Compute{space}all{space}combinations{space}A{space}+{space}B{space}+{space}C{space}={space}1000
+6=N{leftarrow}1000
+7=A{leftarrow}B{leftarrow}{iota}N
+8=C{leftarrow}1000-A{jot}.+B
+9=
+10={lamp}{space}Find{space}positions{space}of{space}all{space}Pythagorean{space}triples
+11=TRIPLES{leftarrow}(C{times}C)=(A{times}A){space}{jot}.+{space}B{times}B
+12=
+13={lamp}{space}What{space}are{space}the{space}values?
+14=(A{space}B){leftarrow},1{uparrow}[2]1+N{space}N{downtack}{space}{overbar}1+(,TRIPLES)/{iota}N{times}N
+15=C{leftarrow}{uparrow}(,TRIPLES)/,C
+16=
+17={lamp}{space}What{apostrophe}s{space}the{space}product{space}ABC?
+18=R{leftarrow}{times}/A{space}B{space}C{space}{lamp}{space}31875000.
+Count=19
+UserDefined=1
+Undo=11 D 0 311 1, D 37 39 0, D 39 41 0, D 39 40 2, D 40 41 3, D 41 118 4, D 394 395 5, D 395 396 6, D 396 397 7, D 397 405 8, D 405 406 9
+CreationTime=01CD9B262F14D790
+LastModTime=01CD9B2681AD4050
+[Fcns.0]
+0=PENINE=2=:7
+Count=1

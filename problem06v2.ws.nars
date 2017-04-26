@@ -1,0 +1,46 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem06v2
+SILevel=0
+MFTimer=2
+CreationTime=01CD9B244CA397D0
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 0 1 0 ''
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:6=F 6.problem06
+Count=7
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:1
+10={quad}pp=I 1 0 10
+11={quad}pr=:1
+12={quad}pw=I 1 0 136
+13={quad}rl=I 1 0 16807
+14={quad}sa=:1
+Count=15
+[6.problem06]
+0=Z{space}{leftarrow}{space}problem06
+1=
+2={lamp}{space}Difference{space}between{space}the{space}sum{space}of{space}the{space}squares{space}of{space}the{space}first{space}100{space}natural{space}numbers{space}and
+3={lamp}{space}the{space}square{space}of{space}the{space}sum{space}of{space}the{space}same.
+4=
+5=Z{space}{leftarrow}{space}((+/{iota}100)*2){space}-{space}+/({iota}100)*2
+Count=6
+UserDefined=1
+Undo=162 D 13 15 0, D 15 17 0, D 17 18 1, D 18 19 2, D 19 20 3, D 20 21 4, D 21 22 5, D 22 23 6, D 23 24 7, D 24 25 8, S 24 25 9, I 24 0 9 '{query}', D 24 25 10, D 25 26 11, D 26 27 12, D 27 28 13, D 28 29 14, D 29 30 15, D 30 31 16, D 31 32 17, D 32 33 18, S 32 33 19, I 32 0 19 '-', D 32 33 20, D 33 34 21, D 34 35 22, D 35 36 23, D 36 37 24, D 37 38 25, D 38 39 26, D 39 40 27, D 40 41 28, D 41 42 29, D 42 43 30, D 43 44 31, D 44 45 32, D 45 46 33, D 15 17 0, D 17 18 34, D 18 19 35, D 19 20 36, D 20 21 37, D 21 22 38, D 22 23 39, D 23 24 40, D 24 25 41, D 25 26 42, D 26 27 43, D 27 28 44, D 28 29 45, D 29 30 46, D 30 31 47, D 31 32 48, D 32 33 49, D 33 34 50, D 34 35 51, D 35 36 52, D 36 37 53, D 37 38 54, D 38 39 55, D 39 40 56, D 40 41 57, D 41 42 58, D 42 43 59, D 43 44 60, D 44 45 61, D 45 46 62, D 46 47 63, D 47 48 64, D 48 49 65, D 49 50 66, D 50 51 67, D 51 52 68, D 52 53 69, D 53 54 70, D 54 55 71, D 55 56 72, D 56 57 73, D 57 58 74, D 58 59 75, D 59 60 76, D 60 61 77, D 61 62 78, D 62 63 79, D 63 64 80, D 64 65 81, D 65 66 82, D 66 67 83, D 67 68 84, D 68 69 85, D 69 70 86, D 70 71 87, D 71 72 88, D 72 73 89, D 73 74 90, D 74 75 91, D 75 76 92, D 76 77 93, D 77 78 94, D 78 79 95, D 79 80 96, S 79 80 97, I 79 0 97 'u', D 79 80 98, D 80 81 99, D 81 82 100, D 82 83 101, D 83 84 102, D 84 85 103, D 85 86 104, D 86 87 105, D 87 88 106, D 88 89 107, D 89 90 108, D 90 91 109, D 91 92 110, D 92 93 111, D 93 94 112, D 94 95 113, D 95 96 114, D 96 97 115, D 97 99 0, D 99 100 116, D 100 101 117, D 101 102 118, D 102 103 119, D 103 104 120, D 104 105 121, D 105 106 122, D 106 107 123, S 106 107 124, I 106 0 124 'a', D 106 107 125, D 107 108 126, D 108 109 127, D 109 110 128, D 110 111 129, D 111 112 130, D 112 113 131, D 113 114 132, D 114 115 133, D 115 116 134, D 116 117 135, D 117 118 136, D 118 119 137, D 119 120 138, D 120 121 139, D 121 122 140, D 122 123 141, D 123 124 142, D 124 125 143, D 125 126 144, D 126 127 145, D 127 128 146, D 128 129 147, D 129 130 148, D 130 131 149, D 131 132 150, D 132 133 151, D 133 134 152, D 134 135 153, D 135 137 0
+CreationTime=01CD9B241F776A20
+LastModTime=01CD9B241F776A20
+[Fcns.0]
+0=problem06=2=:6
+Count=1

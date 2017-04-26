@@ -1,0 +1,96 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem45
+SILevel=0
+MFTimer=2
+CreationTime=01CD9DB646765020
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 0 1 0 ''
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:6=F 6.problem45
+:8=F 8.P
+:10=F 10.Q
+:12=F 12.H
+:13=V I 1 1 1 80114240755
+:15=F 15.isPentagonal
+Count=16
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:1
+10={quad}pp=I 1 0 10
+11={quad}pr=:1
+12={quad}pw=I 1 0 89
+13={quad}rl=I 1 0 16807
+14={quad}sa=:1
+15=hs=:13
+Count=16
+[6.problem45]
+0=Z{space}{leftarrow}{space}problem45
+1={lamp}{lamp}{space}We{space}can{space}ignore{space}triangular{space}numbers{space}because{space}all{space}triangular{space}numbers{space}based{space}on{space}odd{space}ns
+2={lamp}{lamp}{space}are{space}hexagonal{space}numbers.
+3={lamp}{lamp}{space}That{apostrophe}s{space}pointed{space}out{space}at
+4={lamp}{lamp}{space}http://www.mathblog.dk/project-euler-45-next-triangle-pentagonal-hexagonal-number/.
+5=
+6=hs{leftarrow}{space}H{space}143+2{times}{iota}1e5{space}{lamp}{space}Hexagonal{space}numbers{space}to{space}check.
+7=Z{space}{leftarrow}{space}(isPentagonal{space}{dieresis}{space}hs)/hs
+Count=8
+UserDefined=1
+Undo=271 D 13 15 0, D 15 389 1, S 15 16 2, I 15 0 2 '/', S 15 16 3, I 15 0 3 '/', D 15 16 4, D 16 17 5, S 122 123 6, I 122 0 6 '/', S 121 122 7, I 121 0 7 '/', D 121 122 8, D 122 123 9, D 96 98 0, D 98 99 10, D 99 100 11, S 149 150 12, I 149 0 12 '{space}', D 149 151 0, D 151 152 13, D 152 153 14, D 153 154 15, S 239 397 16, I 239 0 16 '/', I 239 0 16 '/', I 239 0 16 '{space}', I 239 0 16 'D', I 239 0 16 'o', I 239 0 16 'e', I 239 0 16 's', I 239 0 16 'n', I 239 0 16 '\'', I 239 0 16 't', I 239 0 16 '{space}', I 239 0 16 't', I 239 0 16 'h', I 239 0 16 'a', I 239 0 16 't', I 239 0 16 '{space}', I 239 0 16 'm', I 239 0 16 'e', I 239 0 16 'a', I 239 0 16 'n', I 239 0 16 '{space}', I 239 0 16 't', I 239 0 16 'h', I 239 0 16 'a', I 239 0 16 't', I 239 0 16 '{space}', I 239 0 16 'w', I 239 0 16 'e', I 239 0 16 '{space}', I 239 0 16 'c', I 239 0 16 'o', I 239 0 16 'u', I 239 0 16 'l', I 239 0 16 'd', I 239 0 16 '{space}', I 239 0 16 's', I 239 0 16 't', I 239 0 16 'a', I 239 0 16 'r', I 239 0 16 't', I 239 0 16 '{space}', I 239 0 16 'a', I 239 0 16 't', I 239 0 16 '{space}', I 239 0 16 '1', I 239 0 16 '4', I 239 0 16 '5', I 239 0 16 '{space}', I 239 0 16 'i', I 239 0 16 'n', I 239 0 16 's', I 239 0 16 't', I 239 0 16 'e', I 239 0 16 'a', I 239 0 16 'd', I 239 0 16 '{space}', I 239 0 16 'o', I 239 0 16 'f', I 239 0 16 '{space}', I 239 0 16 '1', I 239 0 16 '4', I 239 0 16 '4', I 239 0 16 '{comma}', I 239 0 16 '{space}', I 239 0 16 'a', I 239 0 16 'n', I 239 0 16 'd', I 239 0 16 '{space}', I 239 0 16 'i', I 239 0 16 'n', I 239 0 16 'c', I 239 0 16 'r', I 239 0 16 'e', I 239 0 16 'm', I 239 0 16 'e', I 239 0 16 'n', I 239 0 16 't', I 239 0 16 '{space}', I 239 0 16 'b', I 239 0 16 'y', I 239 0 16 '{space}', I 239 0 16 '2', I 239 0 16 '{space}', I 239 0 16 'i', I 239 0 16 'n', I 239 0 16 's', I 239 0 16 't', I 239 0 16 'e', I 239 0 16 'a', I 239 0 16 'd', I 239 0 16 '{space}', I 239 0 16 'o', I 239 0 16 'f', I 239 0 16 '{space}', I 239 0 16 '1', I 239 0 16 '{query}', I 239 0 16 '\r', I 239 0 16 '\n', I 239 0 16 '/', I 239 0 16 '/', I 239 0 16 '{space}', I 239 0 16 'Y', I 239 0 16 'e', I 239 0 16 's', I 239 0 16 '{space}', I 239 0 16 'i', I 239 0 16 't', I 239 0 16 '{space}', I 239 0 16 'd', I 239 0 16 'o', I 239 0 16 'e', I 239 0 16 's', I 239 0 16 '{quotedot}', I 239 0 16 '{space}', I 239 0 16 'A', I 239 0 16 'n', I 239 0 16 'd', I 239 0 16 '{space}', I 239 0 16 't', I 239 0 16 'h', I 239 0 16 'a', I 239 0 16 't', I 239 0 16 '{space}', I 239 0 16 'r', I 239 0 16 'e', I 239 0 16 'd', I 239 0 16 'u', I 239 0 16 'c', I 239 0 16 'e', I 239 0 16 's', I 239 0 16 '{space}', I 239 0 16 't', I 239 0 16 'h', I 239 0 16 'e', I 239 0 16 '{space}', I 239 0 16 'r', I 239 0 16 'u', I 239 0 16 'n', I 239 0 16 '-', I 239 0 16 't', I 239 0 16 'i', I 239 0 16 'm', I 239 0 16 'e', I 239 0 16 '{space}', I 239 0 16 's', I 239 0 16 'i', I 239 0 16 'g', I 239 0 16 'n', I 239 0 16 'i', I 239 0 16 'f', I 239 0 16 'i', I 239 0 16 'c', I 239 0 16 'a', I 239 0 16 'n', I 239 0 16 't', I 239 0 16 'l', I 239 0 16 'y', I 239 0 16 '{quotedot}', D 55 56 17, S 55 56 18, I 55 0 18 'U', D 55 56 19, N 0 0 0, D 240 242 0, D 242 260 1, D 260 262 0, D 262 263 2, D 263 264 3, D 264 265 4, D 265 266 5, D 266 267 6, D 267 268 7, D 268 269 8, D 269 270 9, D 270 271 10, D 271 272 11, D 272 273 12, D 273 274 13, D 274 275 14, D 275 276 15, S 275 276 16, I 275 0 16 '{overbar}', D 275 276 17, D 276 277 18, D 277 278 19, D 278 279 20, D 279 280 21, D 262 263 22, D 281 282 23, D 282 283 24, D 283 284 25, D 262 263 26, D 263 264 27, D 264 265 28, D 265 266 29, D 260 261 30, D 261 262 31, D 262 263 32, D 263 264 33, D 264 265 34, D 265 266 35, D 266 267 36, D 267 268 37, D 268 269 38, D 269 270 39, D 270 271 40, D 271 272 41, D 272 273 42, D 273 274 43, D 274 275 44, D 275 276 45, D 276 277 46, D 277 278 47, D 278 279 48, D 279 280 49, D 280 281 50, D 281 282 51, D 282 283 52, D 283 284 53, D 284 285 54, S 284 285 55, I 284 0 55 'c', S 283 284 56, I 283 0 56 '{space}', S 282 283 57, I 282 0 57 'o', S 281 282 58, I 281 0 58 't', S 280 281 59, I 280 0 59 '{space}', D 280 281 60, D 281 282 61, D 282 283 62, D 283 284 63, D 284 285 64, D 285 286 65, D 286 287 66, D 287 288 67, D 288 289 68, D 289 290 69, S 245 246 70, I 245 0 70 '{overbar}', S 245 246 71, I 245 0 71 '1', S 245 246 72, I 245 0 72 '{uparrow}', D 245 246 73
+CreationTime=01CD9DB374D252A0
+LastModTime=01CD9DB643B115A0
+[Fcns.0]
+0=problem45=2=:6
+1=P=3=:8
+2=Q=3=:10
+3=H=3=:12
+4=isPentagonal=3=:15
+Count=5
+[8.P]
+0=Z{space}{leftarrow}{space}P{space}{omega}
+1={lamp}{space}Returns{space}the{space}{omega}th{space}Pentagonal{space}number.
+2=Z{space}{leftarrow}{space}({omega}-{dieresistilde}{space}3{times}{omega}*2){colonbar}2
+Count=3
+UserDefined=1
+Undo=8 S 0 1 1, I 0 0 1 'P', D 0 64 1, D 64 65 2, S 64 65 3, I 64 0 3 '{space}', S 63 64 4, I 63 0 4 '2'
+CreationTime=01CD9DB1FEDF4630
+LastModTime=01CD9DB20955A640
+[10.Q]
+0=Z{space}{leftarrow}{space}Q{space}{omega}
+1={lamp}{space}Inverse{space}of{space}P.{space}Returns{space}the{space}index{space}of{space}the{space}Pentagonal{space}{omega}{space}if{space}{omega}{space}is{space}Pentagonal.
+2=Z{space}{leftarrow}{space}6{colonbar}{dieresistilde}{space}1+{root}{space}1+24{times}{omega}
+Count=3
+UserDefined=1
+Undo=3 S 0 1 1, I 0 0 1 'Q', D 0 102 1
+CreationTime=01CD9DB21EEF9650
+LastModTime=01CD9DB21EEF9650
+[12.H]
+0=Z{space}{leftarrow}{space}H{space}{omega}
+1={lamp}{space}Returns{space}the{space}{omega}th{space}Hexagonal{space}number.
+2=Z{space}{leftarrow}{space}{omega}-{dieresistilde}{space}2{times}{omega}*2
+3={lamp}{space}Z{space}{leftarrow}{space}{omega}{times}(2{times}{omega}-1){space}{lamp}{space}In{space}more{space}conventional{space}notation.{space}Preference?
+Count=4
+UserDefined=1
+Undo=135 D 0 1 1, D 1 2 2, D 2 3 3, D 3 4 4, D 5 6 5, D 6 7 6, D 7 9 0, D 9 10 7, D 10 11 8, D 11 12 9, D 12 13 10, D 13 14 11, D 14 15 12, D 15 16 13, D 16 17 14, D 17 18 15, D 18 19 16, D 19 20 17, S 19 20 18, I 19 0 18 '{upcaret}', D 19 20 19, D 20 21 20, D 21 22 21, S 21 22 22, I 21 0 22 '{notequal}', D 21 22 23, D 22 23 24, D 23 24 25, S 23 24 26, I 23 0 26 ')', S 13 14 27, I 13 0 27 '(', D 7 9 0, D 9 10 28, D 10 11 29, D 11 12 30, D 12 13 31, D 13 14 32, D 14 15 33, D 15 16 34, D 16 17 35, D 17 18 36, D 18 19 37, D 19 20 38, D 20 21 39, D 21 22 40, D 22 23 41, D 23 24 42, S 23 24 43, I 23 0 43 'w', D 23 24 44, D 24 25 45, D 25 26 46, D 26 27 47, D 27 28 48, D 28 29 49, D 29 30 50, D 30 31 51, D 31 32 52, D 32 33 53, D 33 34 54, D 34 35 55, D 35 36 56, D 36 37 57, D 37 38 58, D 38 39 59, D 39 40 60, D 40 41 61, D 41 42 62, D 42 43 63, D 43 44 64, D 59 61 0, D 61 62 65, D 62 63 66, D 63 64 67, D 64 65 68, D 65 66 69, D 66 67 70, S 66 67 71, I 66 0 71 '_', D 66 67 72, D 67 68 73, D 68 69 74, D 69 70 75, D 70 71 76, D 71 72 77, D 72 73 78, D 73 74 79, D 61 62 80, D 62 63 81, D 76 77 82, D 77 78 83, D 78 79 84, D 79 80 85, D 80 81 86, D 81 82 87, D 82 83 88, D 83 84 89, D 84 85 90, D 85 86 91, D 86 87 92, D 87 88 93, D 88 89 94, D 89 90 95, D 90 91 96, D 91 92 97, D 92 93 98, D 93 94 99, D 82 83 100, D 83 84 101, D 84 85 102, D 85 86 103, D 86 87 104, D 99 100 105, D 100 101 106, D 101 102 107, D 102 103 108, D 103 104 109, D 104 105 110, D 105 106 111, D 106 107 112, D 107 108 113, D 108 109 114, D 109 110 115, D 110 111 116, D 111 112 117, D 112 113 118, D 113 114 119, D 114 115 120, D 115 116 121, D 116 117 122, D 117 118 123, D 118 119 124, D 119 120 125, D 120 121 126
+CreationTime=01CD9DB27F7FBDB0
+LastModTime=01CD9DB2F4911220
+[15.isPentagonal]
+0=Z{space}{leftarrow}{space}isPentagonal{space}{omega};q
+1={lamp}{space}Indicates{space}whether{space}{omega}{space}is{space}Pentagonal.
+2=q{space}{leftarrow}{space}Q{space}{omega}
+3=Z{space}{leftarrow}{space}1e{overbar}5{space}>{space}|({downstile}q)-q
+Count=4
+UserDefined=1
+Undo=14 S 0 12 1, I 0 0 1 'i', I 0 0 1 's', I 0 0 1 'P', I 0 0 1 'e', I 0 0 1 'n', I 0 0 1 't', I 0 0 1 'a', I 0 0 1 'g', I 0 0 1 'o', I 0 0 1 'n', I 0 0 1 'a', I 0 0 1 'l', D 0 87 1
+CreationTime=01CD9DB5A42A9D30
+LastModTime=01CD9DB5A42A9D30

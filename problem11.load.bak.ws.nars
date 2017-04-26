@@ -1,0 +1,102 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem11
+SILevel=2
+MFTimer=2
+CreationTime=01CD9B2A615F0000
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 67 1 67 'VALUE{space}ERROR{\x000D}PEELEVEN[25]{space}grid{leftarrow}20{space}20{rho}{quad}FI{space}G{\x000D}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{upcaret}'
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:5=V C 0 1 0 ''
+:7=F 7.PEELEVEN
+:8=V C 1199 1 1199 '08{space}02{space}22{space}97{space}38{space}15{space}00{space}40{space}00{space}75{space}04{space}05{space}07{space}78{space}52{space}12{space}50{space}77{space}91{space}08{space}49{space}49{space}99{space}40{space}17{space}81{space}18{space}57{space}60{space}87{space}17{space}40{space}98{space}43{space}69{space}48{space}04{space}56{space}62{space}00{space}81{space}49{space}31{space}73{space}55{space}79{space}14{space}29{space}93{space}71{space}40{space}67{space}53{space}88{space}30{space}03{space}49{space}13{space}36{space}65{space}52{space}70{space}95{space}23{space}04{space}60{space}11{space}42{space}69{space}24{space}68{space}56{space}01{space}32{space}56{space}71{space}37{space}02{space}36{space}91{space}22{space}31{space}16{space}71{space}51{space}67{space}63{space}89{space}41{space}92{space}36{space}54{space}22{space}40{space}40{space}28{space}66{space}33{space}13{space}80{space}24{space}47{space}32{space}60{space}99{space}03{space}45{space}02{space}44{space}75{space}33{space}53{space}78{space}36{space}84{space}20{space}35{space}17{space}12{space}50{space}32{space}98{space}81{space}28{space}64{space}23{space}67{space}10{space}26{space}38{space}40{space}67{space}59{space}54{space}70{space}66{space}18{space}38{space}64{space}70{space}67{space}26{space}20{space}68{space}02{space}62{space}12{space}20{space}95{space}63{space}94{space}39{space}63{space}08{space}40{space}91{space}66{space}49{space}94{space}21{space}24{space}55{space}58{space}05{space}66{space}73{space}99{space}26{space}97{space}17{space}78{space}78{space}96{space}83{space}14{space}88{space}34{space}89{space}63{space}72{space}21{space}36{space}23{space}09{space}75{space}00{space}76{space}44{space}20{space}45{space}35{space}14{space}00{space}61{space}33{space}97{space}34{space}31{space}33{space}95{space}78{space}17{space}53{space}28{space}22{space}75{space}31{space}67{space}15{space}94{space}03{space}80{space}04{space}62{space}16{space}14{space}09{space}53{space}56{space}92{space}16{space}39{space}05{space}42{space}96{space}35{space}31{space}47{space}55{space}58{space}88{space}24{space}00{space}17{space}54{space}24{space}36{space}29{space}85{space}57{space}86{space}56{space}00{space}48{space}35{space}71{space}89{space}07{space}05{space}44{space}44{space}37{space}44{space}60{space}21{space}58{space}51{space}54{space}17{space}58{space}19{space}80{space}81{space}68{space}05{space}94{space}47{space}69{space}28{space}73{space}92{space}13{space}86{space}52{space}17{space}77{space}04{space}89{space}55{space}40{space}04{space}52{space}08{space}83{space}97{space}35{space}99{space}16{space}07{space}97{space}57{space}32{space}16{space}26{space}26{space}79{space}33{space}27{space}98{space}66{space}88{space}36{space}68{space}87{space}57{space}62{space}20{space}72{space}03{space}46{space}33{space}67{space}46{space}55{space}12{space}32{space}63{space}93{space}53{space}69{space}04{space}42{space}16{space}73{space}38{space}25{space}39{space}11{space}24{space}94{space}72{space}18{space}08{space}46{space}29{space}32{space}40{space}62{space}76{space}36{space}20{space}69{space}36{space}41{space}72{space}30{space}23{space}88{space}34{space}62{space}99{space}69{space}82{space}67{space}59{space}85{space}74{space}04{space}36{space}16{space}20{space}73{space}35{space}29{space}78{space}31{space}90{space}01{space}74{space}31{space}49{space}71{space}48{space}86{space}81{space}16{space}23{space}57{space}05{space}54{space}01{space}70{space}54{space}71{space}83{space}51{space}54{space}69{space}16{space}92{space}33{space}48{space}61{space}43{space}52{space}01{space}89{space}19{space}67{space}48'
+Count=9
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:5
+10={quad}pp=I 1 0 10
+11={quad}pr=:5
+12={quad}pw=I 1 0 150
+13={quad}rl=I 1 0 16807
+14={quad}sa=:5
+Count=15
+[Vars.1]
+0={quad}io=B 1 0 0
+R=
+grid=
+rows=
+cols=
+tlbr=
+trbl=
+1=G=:8
+Count=2
+[7.PEELEVEN]
+0=R{leftarrow}PEELEVEN;G;grid;rows;cols;tlbr;trbl;{quad}IO
+1={quad}IO{leftarrow}0
+2=
+3=G{leftarrow}{space}{space}{apostrophe}08{space}02{space}22{space}97{space}38{space}15{space}00{space}40{space}00{space}75{space}04{space}05{space}07{space}78{space}52{space}12{space}50{space}77{space}91{space}08{space}{apostrophe}
+4=G{leftarrow}G,{apostrophe}49{space}49{space}99{space}40{space}17{space}81{space}18{space}57{space}60{space}87{space}17{space}40{space}98{space}43{space}69{space}48{space}04{space}56{space}62{space}00{space}{apostrophe}
+5=G{leftarrow}G,{apostrophe}81{space}49{space}31{space}73{space}55{space}79{space}14{space}29{space}93{space}71{space}40{space}67{space}53{space}88{space}30{space}03{space}49{space}13{space}36{space}65{space}{apostrophe}
+6=G{leftarrow}G,{apostrophe}52{space}70{space}95{space}23{space}04{space}60{space}11{space}42{space}69{space}24{space}68{space}56{space}01{space}32{space}56{space}71{space}37{space}02{space}36{space}91{space}{apostrophe}
+7=G{leftarrow}G,{apostrophe}22{space}31{space}16{space}71{space}51{space}67{space}63{space}89{space}41{space}92{space}36{space}54{space}22{space}40{space}40{space}28{space}66{space}33{space}13{space}80{space}{apostrophe}
+8=G{leftarrow}G,{apostrophe}24{space}47{space}32{space}60{space}99{space}03{space}45{space}02{space}44{space}75{space}33{space}53{space}78{space}36{space}84{space}20{space}35{space}17{space}12{space}50{space}{apostrophe}
+9=G{leftarrow}G,{apostrophe}32{space}98{space}81{space}28{space}64{space}23{space}67{space}10{space}26{space}38{space}40{space}67{space}59{space}54{space}70{space}66{space}18{space}38{space}64{space}70{space}{apostrophe}
+10=G{leftarrow}G,{apostrophe}67{space}26{space}20{space}68{space}02{space}62{space}12{space}20{space}95{space}63{space}94{space}39{space}63{space}08{space}40{space}91{space}66{space}49{space}94{space}21{space}{apostrophe}
+11=G{leftarrow}G,{apostrophe}24{space}55{space}58{space}05{space}66{space}73{space}99{space}26{space}97{space}17{space}78{space}78{space}96{space}83{space}14{space}88{space}34{space}89{space}63{space}72{space}{apostrophe}
+12=G{leftarrow}G,{apostrophe}21{space}36{space}23{space}09{space}75{space}00{space}76{space}44{space}20{space}45{space}35{space}14{space}00{space}61{space}33{space}97{space}34{space}31{space}33{space}95{space}{apostrophe}
+13=G{leftarrow}G,{apostrophe}78{space}17{space}53{space}28{space}22{space}75{space}31{space}67{space}15{space}94{space}03{space}80{space}04{space}62{space}16{space}14{space}09{space}53{space}56{space}92{space}{apostrophe}
+14=G{leftarrow}G,{apostrophe}16{space}39{space}05{space}42{space}96{space}35{space}31{space}47{space}55{space}58{space}88{space}24{space}00{space}17{space}54{space}24{space}36{space}29{space}85{space}57{space}{apostrophe}
+15=G{leftarrow}G,{apostrophe}86{space}56{space}00{space}48{space}35{space}71{space}89{space}07{space}05{space}44{space}44{space}37{space}44{space}60{space}21{space}58{space}51{space}54{space}17{space}58{space}{apostrophe}
+16=G{leftarrow}G,{apostrophe}19{space}80{space}81{space}68{space}05{space}94{space}47{space}69{space}28{space}73{space}92{space}13{space}86{space}52{space}17{space}77{space}04{space}89{space}55{space}40{space}{apostrophe}
+17=G{leftarrow}G,{apostrophe}04{space}52{space}08{space}83{space}97{space}35{space}99{space}16{space}07{space}97{space}57{space}32{space}16{space}26{space}26{space}79{space}33{space}27{space}98{space}66{space}{apostrophe}
+18=G{leftarrow}G,{apostrophe}88{space}36{space}68{space}87{space}57{space}62{space}20{space}72{space}03{space}46{space}33{space}67{space}46{space}55{space}12{space}32{space}63{space}93{space}53{space}69{space}{apostrophe}
+19=G{leftarrow}G,{apostrophe}04{space}42{space}16{space}73{space}38{space}25{space}39{space}11{space}24{space}94{space}72{space}18{space}08{space}46{space}29{space}32{space}40{space}62{space}76{space}36{space}{apostrophe}
+20=G{leftarrow}G,{apostrophe}20{space}69{space}36{space}41{space}72{space}30{space}23{space}88{space}34{space}62{space}99{space}69{space}82{space}67{space}59{space}85{space}74{space}04{space}36{space}16{space}{apostrophe}
+21=G{leftarrow}G,{apostrophe}20{space}73{space}35{space}29{space}78{space}31{space}90{space}01{space}74{space}31{space}49{space}71{space}48{space}86{space}81{space}16{space}23{space}57{space}05{space}54{space}{apostrophe}
+22=G{leftarrow}G,{apostrophe}01{space}70{space}54{space}71{space}83{space}51{space}54{space}69{space}16{space}92{space}33{space}48{space}61{space}43{space}52{space}01{space}89{space}19{space}67{space}48{apostrophe}
+23=
+24={lamp}grid{leftarrow}MakeGrid
+25=grid{leftarrow}20{space}20{rho}{quad}FI{space}G
+26=
+27={lamp}{space}Maximum{space}product{space}of{space}4{space}consecutive{space}items{space}in{space}any{space}row
+28=rows{leftarrow}{upstile}/,4{times}/grid
+29=
+30={lamp}{space}Maximum{space}product{space}of{space}4{space}consecutive{space}items{space}in{space}any{space}column
+31=cols{leftarrow}{upstile}/,4{times}{slashbar}grid
+32=
+33={lamp}{space}Maximum{space}product{space}of{space}4{space}consecutive{space}items{space}in{space}any{space}diagonal
+34={lamp}{space}from{space}top-left{space}to{space}bottom-right
+35=tlbr{leftarrow}{upstile}/,4{times}/({iota}20){circlebar}grid{commabar}20{space}20{rho}0
+36=
+37={lamp}{space}Maximum{space}product{space}of{space}4{space}consecutive{space}items{space}in{space}any{space}diagonal
+38={lamp}{space}from{space}top-right{space}to{space}bottom-left
+39=trbl{leftarrow}{upstile}/,4{times}/(-{iota}20){circlebar}grid{commabar}20{space}20{rho}0
+40=
+41=R{leftarrow}{upstile}/rows{space}cols{space}tlbr{space}trbl
+Count=42
+UserDefined=1
+Undo=38 D 0 484 1, D 46 48 0, D 48 50 0, D 50 1420 2, D 1420 1422 0, S 1407 1408 3, I 1407 0 3 'G', D 1407 1408 4, D 1408 1409 5, D 1409 1410 6, D 1410 1411 7, D 1427 1428 8, S 1423 1425 9, I 1423 0 9 '\r', I 1423 0 9 '\n', S 1407 1423 10, I 1407 0 10 'g', I 1407 0 10 'r', I 1407 0 10 'i', I 1407 0 10 'd', I 1407 0 10 '{leftarrow}', I 1407 0 10 '2', I 1407 0 10 '0', I 1407 0 10 '{space}', I 1407 0 10 '2', I 1407 0 10 '0', I 1407 0 10 '{rho}', I 1407 0 10 '{quad}', I 1407 0 10 'F', I 1407 0 10 'I', I 1407 0 10 '{space}', I 1407 0 10 'G', D 1425 1441 11, D 1441 1443 0, D 52 53 12, D 53 54 13, D 11 12 14, D 12 13 15
+CreationTime=01CD9B29B389F660
+LastModTime=01CD9B29B389F660
+[Fcns.0]
+0=PEELEVEN=2=:7
+Count=1
+[Fcns.1]
+Count=0
+[Vars.2]
+Count=0
+[Fcns.2]
+Count=0
+[SI]
+0=PEELEVEN[25] *

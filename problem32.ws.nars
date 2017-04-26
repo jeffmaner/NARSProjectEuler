@@ -1,0 +1,92 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem32
+SILevel=0
+MFTimer=2
+CreationTime=01CD9C2747B42BA0
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 74 1 74 'RANK{space}ERROR{\x000D}{space}{space}{space}{space}{space}{space}(hasIdentity{dieresis}N)/N{leftarrow}1000{iota}8999{\x000D}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{upcaret}'
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:5=V C 0 1 0 ''
+:7=F 7.isPandigital
+:8=V I 6 1 6 0 0 9 9 9 9
+:10=F 10.divs
+:12=F 12.hasIdentity
+:13=V B 0 1 0
+:14=V B 1 1 1 0
+:15=V B 1 1 1 0
+:16=V A 8999 1 8999 1001 1
+:18=F 18.problem32
+Count=19
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:5
+10={quad}pp=I 1 0 10
+11={quad}pr=:5
+12={quad}pw=I 1 0 89
+13={quad}rl=I 1 0 16807
+14={quad}sa=:5
+15=digits=:8
+16=ds=:13
+17=a=:14
+18=b=:15
+19=N=:16
+Count=20
+[7.isPandigital]
+0=Z{space}{leftarrow}{space}isPandigital{space}{omega}
+1=digits{leftarrow}{uptackjot}{dieresis}{downtackjot}{space}{omega}
+2=Z{space}{leftarrow}{space}({iota}9){space}{equalunderbar}{space}digits[{deltastile}digits]
+Count=3
+UserDefined=1
+Undo=1 D 0 60 1
+CreationTime=01CD9C24E112BDF0
+LastModTime=01CD9C24E112BDF0
+[Fcns.0]
+0=isPandigital=3=:7
+1=divs=3=:10
+2=hasIdentity=3=:12
+3=problem32=2=:18
+Count=4
+[10.divs]
+0=Z{space}{leftarrow}{space}divs{space}{omega}
+1=Z{space}{leftarrow}{space}(0=({iota}{omega})|{omega})/{iota}{omega}
+Count=2
+UserDefined=1
+Undo=28 D 0 1 1, D 1 2 2, D 2 3 3, D 3 4 4, D 4 5 5, D 5 6 6, D 6 7 7, D 7 8 8, D 8 9 9, D 9 10 10, D 10 12 0, D 12 13 11, D 13 14 12, D 14 15 13, D 15 16 14, D 14 15 15, D 12 13 16, D 12 13 17, D 13 14 18, D 20 21 19, D 12 13 20, D 22 23 21, D 23 24 22, D 24 25 23, D 12 13 24, D 13 14 25, D 14 15 26, D 15 16 27
+CreationTime=01CD9C2582F5EB10
+LastModTime=01CD9C2582F5EB10
+[12.hasIdentity]
+0=f{space}{leftarrow}{space}hasIdentity{space}{omega}
+1=f{leftarrow}0{space}{lamp}{space}Flag{space}indicating{space}possession{space}of{space}identity.
+2=ds{leftarrow}divs{space}{omega}
+3=:while{space}1
+4={space}{space}a{space}{leftarrow}{space}1{uparrow}ds{space}{space}{space}{space}{lamp}{space}First{space}divisor{space}of{space}{omega}.
+5={space}{space}b{space}{leftarrow}{overbar}1{uparrow}ds{space}{space}{space}{space}{lamp}{space}Last{space}{space}divisor{space}of{space}{omega}.
+6={space}{space}ds{leftarrow}{space}1{downarrow}{overbar}1{downarrow}ds{space}{lamp}{space}Divisors{space}beheaded{space}and{space}curtailed.
+7={space}{space}f{space}{leftarrow}{space}isPandigital{space}({downtackjot}a),({downtackjot}b),{downtackjot}{omega}
+8={space}{space}{rightarrow}f/0
+9=:until{space}{space}a{rightcaretunderbar}b
+Count=10
+UserDefined=1
+Undo=310 D 0 1 1, D 1 2 2, D 2 3 3, D 3 4 4, D 4 5 5, D 5 6 6, D 6 7 7, D 7 8 8, D 8 9 9, D 9 10 10, D 10 11 11, D 11 12 12, D 12 13 13, D 13 14 14, D 14 15 15, D 15 16 16, D 16 17 17, D 17 19 0, D 19 20 18, D 20 21 19, S 20 21 20, I 20 0 20 '{uptackjot}', D 20 21 21, D 21 22 22, D 22 23 23, D 23 24 24, D 24 25 25, D 25 26 26, D 26 27 27, D 27 28 28, D 28 29 29, D 29 30 30, D 30 31 31, D 31 32 32, D 32 33 33, D 33 34 34, D 34 35 35, D 35 36 36, S 35 36 37, I 35 0 37 'i', S 34 35 38, I 34 0 38 'g', D 34 35 39, D 35 36 40, D 36 37 41, D 37 38 42, D 38 39 43, D 39 40 44, D 40 41 45, D 41 42 46, D 42 43 47, D 43 44 48, D 44 45 49, D 45 46 50, D 46 47 51, D 47 48 52, D 48 49 53, D 49 50 54, D 50 51 55, D 51 52 56, D 52 53 57, D 53 54 58, D 54 55 59, D 55 56 60, D 56 57 61, D 57 58 62, D 58 59 63, D 59 60 64, D 60 61 65, D 61 62 66, D 62 63 67, D 63 64 68, D 64 66 0, D 66 67 69, D 67 68 70, D 68 69 71, D 69 70 72, D 70 71 73, D 71 72 74, D 72 73 75, D 73 74 76, D 74 75 77, D 75 77 0, D 77 78 78, D 78 79 79, D 79 80 80, D 80 81 81, D 81 82 82, D 77 78 83, D 83 84 84, S 83 84 85, I 83 0 85 '1', D 83 84 86, D 84 85 87, D 85 87 0, D 87 88 88, D 88 89 89, D 89 90 90, D 90 91 91, D 91 92 92, D 92 93 93, D 93 94 94, D 94 95 95, D 95 96 96, D 96 97 97, D 97 98 98, S 96 97 99, I 96 0 99 '{rightcaret}', D 96 97 100, D 85 87 0, D 87 88 101, D 88 89 102, D 89 90 103, D 90 91 104, D 91 92 105, D 92 93 106, D 93 94 107, D 94 95 108, D 95 97 0, D 97 98 109, D 98 99 110, D 99 100 111, D 100 101 112, D 101 102 113, D 102 103 114, D 103 104 115, S 103 104 116, I 103 0 116 '{leftarrow}', D 103 104 117, S 103 104 118, I 103 0 118 '{downarrow}', D 103 104 119, D 104 105 120, D 105 106 121, D 91 92 122, D 107 109 0, D 109 110 123, D 110 111 124, D 111 112 125, D 112 113 126, D 113 114 127, D 114 115 128, D 115 116 129, D 116 117 130, D 117 118 131, S 117 118 132, I 117 0 132 '{dieresis}', D 117 118 133, D 118 119 134, D 119 120 135, D 120 121 136, D 121 122 137, D 96 97 138, D 97 98 139, D 98 99 140, D 99 100 141, D 100 101 142, D 101 102 143, D 102 103 144, D 103 104 145, D 104 105 146, D 105 106 147, D 106 107 148, D 107 108 149, D 108 109 150, D 109 110 151, D 110 111 152, D 111 112 153, D 112 113 154, D 113 114 155, D 114 115 156, D 115 116 157, D 116 117 158, D 117 118 159, D 129 130 160, D 130 131 161, D 131 132 162, D 132 133 163, D 133 134 164, D 134 135 165, D 135 136 166, D 136 137 167, D 137 138 168, D 138 139 169, D 139 140 170, D 140 141 171, D 141 142 172, D 142 143 173, D 143 144 174, S 143 144 175, I 143 0 175 'i', D 143 144 176, D 144 145 177, D 145 146 178, D 146 147 179, D 147 148 180, D 148 149 181, D 149 150 182, D 150 151 183, D 166 167 184, D 167 168 185, D 168 169 186, D 169 170 187, D 170 171 188, D 171 172 189, D 172 173 190, D 173 174 191, D 174 175 192, D 175 176 193, D 176 177 194, D 177 178 195, D 178 179 196, D 179 180 197, D 180 181 198, D 181 182 199, D 182 183 200, D 183 184 201, D 184 185 202, D 185 186 203, D 186 187 204, D 187 188 205, D 188 189 206, D 189 190 207, D 190 191 208, D 191 192 209, D 192 193 210, D 193 194 211, D 194 195 212, D 195 196 213, D 196 197 214, D 197 198 215, D 198 199 216, D 199 200 217, D 166 167 218, D 130 131 219, D 131 132 220, D 132 133 221, D 133 134 222, D 97 98 223, D 98 99 224, D 99 100 225, D 100 101 226, D 90 91 227, D 128 129 228, S 139 140 229, I 139 0 229 '{space}', S 100 101 230, I 100 0 230 '{space}', D 209 211 0, D 211 219 231, D 219 220 232, S 219 220 233, I 219 0 233 '{space}', S 218 219 234, I 218 0 234 '{space}', S 217 218 235, I 217 0 235 '{space}', S 216 217 236, I 216 0 236 '{space}', S 215 216 237, I 215 0 237 '{space}', S 214 215 238, I 214 0 238 '{space}', S 213 214 239, I 213 0 239 '{space}', D 213 214 240, D 214 215 241, D 215 216 242, S 215 216 243, I 215 0 243 '{space}', D 215 216 244, D 216 217 245, D 217 218 246, D 218 219 247, D 219 220 248, D 220 221 249, D 221 222 250, D 222 223 251, D 223 224 252, D 224 225 253, D 225 226 254, D 226 227 255, D 227 228 256, D 228 229 257, D 229 230 258, D 230 231 259, D 231 232 260, D 232 233 261, D 233 234 262, D 234 235 263, D 235 236 264, D 236 237 265, D 237 238 266, D 238 239 267, D 239 240 268, D 240 241 269, S 240 241 270, I 240 0 270 '{doublequote}', D 240 241 271, D 241 242 272, S 0 1 273, I 0 0 273 'Z', D 0 1 274, D 242 244 0, D 244 245 275, D 245 246 276, D 246 247 277, D 247 248 278, D 248 249 279, D 249 250 280
+CreationTime=01CD9C26ABF171F0
+LastModTime=01CD9C26ABF171F0
+[18.problem32]
+0=Z{space}{leftarrow}{space}problem32
+1=+/{space}(hasIdentity{dieresis}N)/N{leftarrow}1000+{iota}8999{space}{lamp}{space}45228.
+Count=2
+UserDefined=1
+Undo=28 D 0 1 1, D 1 2 2, D 2 3 3, D 3 4 4, D 4 5 5, D 5 6 6, D 6 7 7, D 7 8 8, S 7 8 9, I 7 0 9 'b', S 6 7 10, I 6 0 10 'p', D 6 7 11, D 7 8 12, D 8 9 13, D 9 10 14, D 10 11 15, D 11 12 16, D 12 13 17, D 13 15 0, D 15 53 18, D 46 47 19, D 47 48 20, S 48 50 21, I 48 0 21 '\r', I 48 0 21 '\n', D 48 49 22, D 54 55 23
+CreationTime=01CD9C274343B220
+LastModTime=01CD9C274343B220

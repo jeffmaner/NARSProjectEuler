@@ -1,0 +1,43 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem10
+SILevel=0
+MFTimer=2
+CreationTime=01CD9824B9F18430
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 33 1 33 'LIMIT{space}ERROR{\x000D}{space}{space}{space}{space}{space}{space}{iota}100000{\x000D}{space}{space}{space}{space}{space}{space}{upcaret}'
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:5=V C 0 1 0 ''
+:7=F 7.problem10
+Count=8
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:5
+10={quad}pp=I 1 0 10
+11={quad}pr=:5
+12={quad}pw=I 1 0 137
+13={quad}rl=I 1 0 16807
+14={quad}sa=:5
+Count=15
+[7.problem10]
+0=Z{space}{leftarrow}{space}problem10
+1={lamp}{space}{iota}100000{space}hits{space}a{space}limit{space}error.{space}This{space}will{space}significantly{space}hinder{space}my{space}ability{space}to{space}solve{space}Project{space}Euler{space}problems!
+Count=2
+UserDefined=1
+Undo=127 D 0 1 1, D 1 2 2, D 2 3 3, D 3 4 4, D 4 5 5, D 5 6 6, S 5 6 7, I 5 0 7 'r', S 4 5 8, I 4 0 8 'P', D 4 5 9, D 5 6 10, D 6 7 11, D 7 8 12, D 8 9 13, D 9 10 14, D 10 11 15, D 11 12 16, D 12 13 17, D 13 15 0, D 15 16 18, D 16 17 19, D 17 18 20, D 18 19 21, D 19 20 22, D 20 21 23, D 21 22 24, D 22 23 25, D 23 24 26, D 24 25 27, D 25 26 28, D 26 27 29, D 27 28 30, D 28 29 31, D 29 30 32, D 30 31 33, D 31 32 34, D 32 33 35, D 33 34 36, D 34 35 37, D 35 36 38, D 36 37 39, D 37 38 40, D 38 39 41, D 39 40 42, D 40 41 43, D 41 42 44, D 42 43 45, D 43 44 46, D 44 45 47, D 45 46 48, D 46 47 49, D 47 48 50, D 48 49 51, D 49 50 52, D 50 51 53, D 51 52 54, D 52 53 55, D 53 54 56, D 54 55 57, D 55 56 58, D 56 57 59, D 57 58 60, D 58 59 61, D 59 60 62, D 60 61 63, D 61 62 64, D 62 63 65, D 63 64 66, D 64 65 67, D 65 66 68, D 66 67 69, D 67 68 70, D 68 69 71, D 69 70 72, D 70 71 73, D 71 72 74, D 72 73 75, D 73 74 76, D 74 75 77, D 75 76 78, D 76 77 79, D 77 78 80, D 78 79 81, D 79 80 82, D 80 81 83, D 81 82 84, D 82 83 85, D 83 84 86, D 84 85 87, D 85 86 88, D 86 87 89, D 87 88 90, D 88 89 91, D 89 90 92, D 90 91 93, D 91 92 94, D 92 93 95, D 93 94 96, D 94 95 97, D 95 96 98, D 96 97 99, D 97 98 100, D 98 99 101, D 99 100 102, D 100 101 103, D 101 102 104, D 102 103 105, D 103 104 106, D 104 105 107, D 105 106 108, D 106 107 109, D 107 108 110, D 108 109 111, D 109 110 112, D 110 111 113, D 111 112 114, D 112 113 115, D 113 114 116, D 114 115 117, D 115 116 118, D 116 117 119, D 117 118 120, D 118 119 121, S 118 119 122, I 118 0 122 '.', D 118 119 123
+CreationTime=01CD9824AEAB5100
+LastModTime=01CD9824AEAB5100
+[Fcns.0]
+0=problem10=2=:7
+Count=1

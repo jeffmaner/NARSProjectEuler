@@ -1,0 +1,91 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem37v2
+SILevel=2
+MFTimer=2
+CreationTime=01CD9CD26DB97BB0
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 75 1 75 'VALUE{space}ERROR{\x000D}rightTruncatable[7]{space}{space}{space}n{space}{leftarrow}{space}{uptackjot}{space}{overbar}1{downarrow}{space}{downtackjot}{space}n{\x000D}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{space}{upcaret}'
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:5=V C 0 1 0 ''
+:7=F 7.isPrime
+:9=F 9.rightTruncatable
+:10=V C 0 1 0 ''
+:12=F 12.leftTruncatable
+Count=13
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:5
+10={quad}pp=I 1 0 10
+11={quad}pr=:5
+12={quad}pw=I 1 0 150
+13={quad}rl=I 1 0 16807
+14={quad}sa=:5
+Count=15
+[7.isPrime]
+0=Z{space}{leftarrow}{space}isPrime{space}{omega}
+1=Z{space}{leftarrow}{space}({epsilon}{pi}){omega}
+Count=2
+UserDefined=1
+Undo=9 S 0 7 1, I 0 0 1 'i', I 0 0 1 's', I 0 0 1 'P', I 0 0 1 'r', I 0 0 1 'i', I 0 0 1 'm', I 0 0 1 'e', D 0 24 1
+CreationTime=01CD9CD1AAB355F0
+LastModTime=01CD9CD1AAB355F0
+[Fcns.0]
+0=isPrime=3=:7
+1=rightTruncatable=3=:9
+2=leftTruncatable=3=:12
+Count=3
+[Vars.1]
+0={omega}=I 1 0 11
+1=b=B 1 0 0
+2=n=:10
+Count=3
+[9.rightTruncatable]
+0=b{space}{leftarrow}{space}rightTruncatable{space}{omega};n
+1=b{space}{leftarrow}{space}1
+2=n{space}{leftarrow}{space}{omega}
+3=:WHILE{space}0{notequal}>n
+4={space}{space}:IF{space}n>0
+5={space}{space}{space}{space}b{space}{leftarrow}{space}b{space}{upcaret}{space}isPrime{space}n
+6={space}{space}:ENDIF
+7={space}{space}n{space}{leftarrow}{space}{uptackjot}{space}{overbar}1{downarrow}{space}{downtackjot}{space}n
+8=:ENDWHILE
+Count=9
+UserDefined=1
+Undo=4 D 0 123 1, S 49 50 2, I 49 0 2 '{rho}', D 49 50 3
+CreationTime=01CD9CD1BC176480
+LastModTime=01CD9CD1BC176480
+[12.leftTruncatable]
+0=b{space}{leftarrow}{space}leftTruncatable{space}{omega};n
+1=b{space}{leftarrow}{space}1
+2=n{space}{leftarrow}{space}{omega}
+3=:WHILE{space}0{notequal}>n
+4={space}{space}:IF{space}n>0
+5={space}{space}{space}{space}b{space}{leftarrow}{space}b{space}{upcaret}{space}isPrime{space}n
+6={space}{space}:ENDIF
+7={space}{space}n{space}{leftarrow}{space}{uptackjot}{space}1{downarrow}{space}{downtackjot}{space}n
+8=:ENDWHILE
+Count=9
+UserDefined=1
+Undo=4 D 0 121 1, S 48 49 2, I 48 0 2 '{rho}', D 48 49 3
+CreationTime=01CD9CD1CB1F0C80
+LastModTime=01CD9CD1E30B7810
+[Fcns.1]
+Count=0
+[Vars.2]
+Count=0
+[Fcns.2]
+Count=0
+[SI]
+0=rightTruncatable[7] *

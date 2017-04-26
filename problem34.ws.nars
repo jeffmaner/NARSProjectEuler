@@ -1,0 +1,62 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem34
+SILevel=0
+MFTimer=2
+CreationTime=01CD9CBB0DFA5760
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 52 1 52 'SYNTAX{space}ERROR{\x000D}{space}{space}{space}{space}{space}{space}(N/{dieresistilde}{space}factSumEq{dieresis}){space}N{leftarrow}{iota}2e2{\x000D}{space}{space}{space}{space}{space}{space}{space}{space}{upcaret}'
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:5=V C 0 1 0 ''
+:6=V A 200 1 200 (PV1) 1 1
+:8=F 8.factSumEq
+:9=V C 7 1 7 '1000000'
+:10=V B 7 1 7 1 0 0 0 0 0 0
+:11=V B 7 1 7 1 1 1 1 1 1 1
+:13=F 13.problem34
+Count=14
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:5
+10={quad}pp=I 1 0 10
+11={quad}pr=:5
+12={quad}pw=I 1 0 58
+13={quad}rl=I 1 0 16807
+14={quad}sa=:5
+15=N=:6
+16=s=:9
+17=digits=:10
+18=factorials=:11
+19=sum=I 1 0 7
+Count=20
+[8.factSumEq]
+0=Z{space}{leftarrow}{space}factSumEq{space}{omega}
+1=Z{leftarrow}{omega}=+/{space}!{space}{uptackjot}{dieresis}{downtackjot}{omega}
+Count=2
+UserDefined=1
+Undo=226 D 0 1 1, D 1 2 2, D 2 3 3, D 3 4 4, D 4 5 5, D 5 6 6, S 5 6 7, I 5 0 7 '{lefttack}', S 4 5 8, I 4 0 8 '{uptackjot}', S 3 4 9, I 3 0 9 '{downtackjot}', S 2 3 10, I 2 0 10 '{slashbar}', S 1 2 11, I 1 0 11 '{rightarrow}', S 0 1 12, I 0 0 12 '{righttack}', D 0 1 13, D 1 2 14, D 2 3 15, D 3 4 16, D 4 5 17, D 5 6 18, D 6 7 19, D 7 8 20, D 8 9 21, D 9 10 22, D 10 11 23, D 11 12 24, D 12 13 25, D 13 14 26, D 14 15 27, D 15 17 0, D 17 18 28, D 18 19 29, D 19 20 30, D 20 21 31, D 21 23 0, D 23 24 32, D 24 25 33, D 25 26 34, D 26 27 35, D 27 28 36, D 28 29 37, D 29 30 38, S 29 30 39, I 29 0 39 '{uptackjot}', D 29 30 40, D 30 31 41, D 31 32 42, D 32 33 43, D 33 35 0, D 35 36 44, D 36 37 45, D 37 38 46, D 38 39 47, D 39 40 48, D 40 41 49, D 41 42 50, D 42 43 51, D 43 44 52, D 44 45 53, D 45 46 54, D 46 47 55, D 47 48 56, D 48 49 57, D 49 50 58, D 50 51 59, D 51 52 60, D 52 53 61, D 53 55 0, D 55 56 62, D 56 57 63, D 57 58 64, D 58 59 65, D 59 60 66, D 60 61 67, S 60 61 68, I 60 0 68 '{query}', D 60 61 69, D 61 62 70, D 62 63 71, D 63 64 72, D 64 65 73, D 65 66 74, D 66 67 75, D 67 68 76, D 68 69 77, D 69 70 78, D 70 71 79, D 71 73 0, D 73 74 80, D 74 75 81, D 75 76 82, D 76 77 83, D 77 78 84, D 78 79 85, D 79 80 86, D 80 82 0, D 82 83 87, D 83 84 88, D 84 85 89, D 85 86 90, D 86 87 91, D 87 88 92, D 88 89 93, D 89 90 94, D 90 91 95, D 91 92 96, D 92 93 97, D 93 94 98, D 94 95 99, D 95 96 100, S 86 96 101, I 86 0 101 'f', I 86 0 101 'a', I 86 0 101 'c', I 86 0 101 't', I 86 0 101 'o', I 86 0 101 'r', I 86 0 101 'i', I 86 0 101 'a', I 86 0 101 'l', I 86 0 101 's', D 86 87 101, D 87 88 102, D 88 89 103, D 89 90 104, D 90 91 105, D 91 92 106, D 92 93 107, D 93 94 108, D 94 95 109, S 89 95 110, I 89 0 110 'd', I 89 0 110 'i', I 89 0 110 'g', I 89 0 110 'i', I 89 0 110 't', I 89 0 110 's', D 89 90 110, D 90 91 111, D 91 92 112, S 91 92 113, I 91 0 113 's', D 91 92 114, D 92 93 115, D 82 83 116, D 83 84 117, D 73 74 118, D 55 56 119, D 35 36 120, D 23 24 121, D 17 18 122, S 17 87 123, I 17 0 123 '{lamp}', I 17 0 123 's', I 17 0 123 '{leftarrow}', I 17 0 123 '{downtackjot}', I 17 0 123 '{omega}', I 17 0 123 '\r', I 17 0 123 '\n', I 17 0 123 '{lamp}', I 17 0 123 'd', I 17 0 123 'i', I 17 0 123 'g', I 17 0 123 'i', I 17 0 123 't', I 17 0 123 's', I 17 0 123 '{leftarrow}', I 17 0 123 '{uptackjot}', I 17 0 123 '{dieresis}', I 17 0 123 's', I 17 0 123 '\r', I 17 0 123 '\n', I 17 0 123 '{lamp}', I 17 0 123 'f', I 17 0 123 'a', I 17 0 123 'c', I 17 0 123 't', I 17 0 123 'o', I 17 0 123 'r', I 17 0 123 'i', I 17 0 123 'a', I 17 0 123 'l', I 17 0 123 's', I 17 0 123 '{leftarrow}', I 17 0 123 '{quotedot}', I 17 0 123 'd', I 17 0 123 'i', I 17 0 123 'g', I 17 0 123 'i', I 17 0 123 't', I 17 0 123 's', I 17 0 123 '\r', I 17 0 123 '\n', I 17 0 123 '{lamp}', I 17 0 123 's', I 17 0 123 'u', I 17 0 123 'm', I 17 0 123 '{leftarrow}', I 17 0 123 '+', I 17 0 123 '/', I 17 0 123 'f', I 17 0 123 'a', I 17 0 123 'c', I 17 0 123 't', I 17 0 123 'o', I 17 0 123 'r', I 17 0 123 'i', I 17 0 123 'a', I 17 0 123 'l', I 17 0 123 's', I 17 0 123 '\r', I 17 0 123 '\n', I 17 0 123 '{lamp}', I 17 0 123 'Z', I 17 0 123 '{leftarrow}', I 17 0 123 '{omega}', I 17 0 123 '{equal}', I 17 0 123 's', I 17 0 123 'u', I 17 0 123 'm', I 17 0 123 '\r', I 17 0 123 '\n'
+CreationTime=01CD9CB8C3E458D0
+LastModTime=01CD9CBAFF6A5060
+[Fcns.0]
+0=factSumEq=3=:8
+1=problem34=2=:13
+Count=2
+[13.problem34]
+0=Z{space}{leftarrow}{space}problem34
+1=Z{space}{leftarrow}{space}+/{space}2{downarrow}(factSumEq{dieresis}{space}N)/N{leftarrow}{iota}1e6{space}{lamp}{space}40730.
+Count=2
+UserDefined=1
+Undo=26 D 0 1 1, D 1 2 2, D 2 3 3, D 3 4 4, D 4 5 5, D 5 6 6, D 6 7 7, D 7 8 8, D 8 9 9, D 9 10 10, D 10 11 11, D 11 12 12, D 12 13 13, D 13 15 0, D 15 48 14, D 15 16 15, D 16 17 16, D 17 18 17, D 18 19 18, D 45 46 19, D 46 47 20, S 47 49 21, I 47 0 21 '\r', I 47 0 21 '\n', D 47 48 22, D 53 54 23
+CreationTime=01CD9CBAD04B0540
+LastModTime=01CD9CBAD04B0540

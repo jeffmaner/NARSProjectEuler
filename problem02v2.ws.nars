@@ -1,0 +1,49 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem02v2
+SILevel=0
+MFTimer=2
+CreationTime=01CD9A8EBFBA17D0
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 0 1 0 ''
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:6=F 6.problem02
+:7=V I 35 1 35 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393 196418 317811 514229 832040 1346269 2178309 3524578 5702887
+Count=8
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:1
+10={quad}pp=I 1 0 10
+11={quad}pr=:1
+12={quad}pw=I 1 0 81
+13={quad}rl=I 1 0 16807
+14={quad}sa=:1
+15=X=:7
+Count=16
+[6.problem02]
+0=Z{space}{leftarrow}{space}problem02
+1={lamp}{space}Find{space}the{space}sum{space}of{space}all{space}even{space}Fibonacci{space}numbers{space}<{space}4,000,000.
+2=X{space}{leftarrow}{space}0{space}1
+3=:Repeat
+4={space}{space}X{space}{leftarrow}{space}X,{space}+/{overbar}2{uparrow}X
+5=:Until{space}4000000{space}{leftcaretunderbar}{space}{overbar}1{uparrow}X
+6=Z{space}{leftarrow}{space}+/{space}(0=2|X){space}/{space}X{space}{lamp}{space}4613732.
+Count=7
+UserDefined=1
+Undo=154 D 13 15 0, D 15 16 1, D 16 17 2, D 17 18 3, D 18 19 4, D 19 20 5, D 20 21 6, D 21 22 7, D 22 23 8, D 23 24 9, D 24 25 10, D 25 26 11, D 26 27 12, D 27 28 13, D 28 29 14, D 29 30 15, D 30 31 16, D 31 32 17, D 32 33 18, D 33 34 19, D 34 35 20, D 35 36 21, D 36 37 22, D 37 38 23, D 38 39 24, D 39 40 25, D 40 41 26, D 41 42 27, D 42 43 28, D 43 44 29, D 44 45 30, D 45 46 31, S 45 46 32, I 45 0 32 'i', D 45 46 33, D 46 47 34, D 47 48 35, D 48 49 36, D 49 50 37, D 50 51 38, D 51 52 39, D 52 53 40, D 53 54 41, D 54 55 42, D 55 56 43, D 56 57 44, D 57 58 45, D 58 59 46, D 59 60 47, D 60 61 48, D 61 62 49, D 62 63 50, D 63 64 51, D 64 65 52, S 64 65 53, I 64 0 53 '{space}', D 64 65 54, D 65 66 55, D 66 67 56, S 66 67 57, I 66 0 57 '-', S 65 66 58, I 65 0 58 '-', S 64 65 59, I 64 0 59 '-', D 64 65 60, D 65 66 61, D 66 67 62, D 67 68 63, D 68 69 64, D 69 70 65, D 70 71 66, D 71 72 67, D 72 74 0, D 74 75 68, D 75 76 69, D 76 77 70, D 77 78 71, D 78 79 72, D 79 81 0, D 81 82 73, D 82 83 74, D 83 84 75, D 84 85 76, D 85 86 77, D 86 87 78, D 87 88 79, D 88 90 0, D 90 91 80, D 91 92 81, D 92 93 82, D 93 94 83, D 94 95 84, D 95 96 85, D 88 90 0, D 90 91 86, D 91 92 87, D 92 93 88, D 93 94 89, D 94 95 90, D 95 96 91, D 96 97 92, D 97 98 93, D 98 99 94, D 99 100 95, D 100 101 96, D 101 102 97, S 101 102 98, I 101 0 98 '{quotedot}', D 101 102 99, D 102 103 100, D 103 104 101, D 104 105 102, D 113 114 103, D 114 115 104, D 115 116 105, D 116 117 106, D 117 118 107, D 118 119 108, D 119 120 109, D 120 121 110, D 121 122 111, D 122 123 112, D 123 124 113, D 124 125 114, D 125 126 115, D 126 127 116, D 127 128 117, D 128 130 0, D 130 131 118, D 131 132 119, D 132 133 120, D 133 134 121, D 75 76 122, D 77 78 123, D 136 137 124, D 137 138 125, D 138 139 126, D 139 140 127, D 140 141 128, D 141 142 129, D 142 143 130, D 143 144 131, D 144 145 132, D 145 146 133, D 146 147 134, D 147 148 135, D 148 149 136, D 149 150 137, D 150 151 138, D 151 152 139, D 152 153 140, D 153 160 141, D 160 161 142
+CreationTime=01CD9A8E988837F0
+LastModTime=01CD9A8EB095C010
+[Fcns.0]
+0=problem02=2=:6
+Count=1

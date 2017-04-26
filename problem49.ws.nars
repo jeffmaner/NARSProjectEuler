@@ -1,0 +1,68 @@
+[General]
+Version=0.01
+WSID=D:\programs\NARS2000\workspaces\ProjectEuler\problem49
+SILevel=0
+MFTimer=2
+CreationTime=01CDA186ACE1EF30
+[Globals]
+:0=V C 3 1 3 '{quad}DM'
+:1=V C 0 1 0 ''
+:2=V C 6 1 6 '.,*0_{overbar}'
+:3=V I 1 1 1 1
+:4=V I 16 1 16 3 4 2 2 2 1 2 2 2 2 1 2 1 2 2 1
+:6=F 6.problem49
+Count=7
+[Vars.0]
+0={quad}alx=:0
+1={quad}ct=F 1 0 3E-15
+2={quad}dm=:1
+3={quad}elx=:0
+4={quad}fc=:2
+5={quad}feature=:3
+6={quad}fpc=I 1 0 128
+7={quad}ic=:4
+8={quad}io=B 1 0 1
+9={quad}lx=:1
+10={quad}pp=I 1 0 10
+11={quad}pr=:1
+12={quad}pw=I 1 0 155
+13={quad}rl=I 1 0 16807
+14={quad}sa=:1
+Count=15
+[6.problem49]
+0=Z{space}{leftarrow}{space}problem49
+1=
+2={lamp}{lamp}{space}The{space}arithmetic{space}sequence,{space}1487,{space}4817,{space}8147,{space}in{space}which{space}each{space}of{space}the{space}terms
+3={lamp}{lamp}{space}increases{space}by{space}3330,{space}is{space}unusual{space}in{space}two{space}ways:{space}(i){space}each{space}of{space}the{space}three{space}terms{space}are
+4={lamp}{lamp}{space}prime,{space}and,{space}(ii){space}each{space}of{space}the{space}4-digit{space}numbers{space}are{space}permutations{space}of{space}one{space}another.
+5=
+6={lamp}{lamp}{space}There{space}are{space}no{space}arithmetic{space}sequences{space}made{space}up{space}of{space}three{space}1-,{space}2-,{space}or{space}3-digit{space}primes,
+7={lamp}{lamp}{space}exhibiting{space}this{space}property,{space}but{space}there{space}is{space}one{space}other{space}4-digit{space}increasing{space}sequence.
+8=
+9={lamp}{lamp}{space}What{space}12-digit{space}number{space}do{space}you{space}form{space}by{space}concatenating{space}the{space}three{space}terms{space}in{space}this
+10={lamp}{lamp}{space}sequence?
+11=
+12=primes4{leftarrow}(0{pi}N)/N{leftarrow}1488..9999{space}{lamp}{lamp}{space}Start{space}just{space}beyond{space}the{space}first{space}number{space}we{space}already{space}know{space}about.
+13=:for{space}a{space}:in{space}primes4
+14={space}{space}:for{space}b{space}:in{space}(primes4>a)/primes4
+15={space}{space}{space}{space}x{leftarrow}{downtackjot}a{space}{diamond}{space}y{leftarrow}{downtackjot}b
+16={space}{space}{space}{space}:if{space}x[{deltastile}x]{equalunderbar}y[{deltastile}y]
+17={space}{space}{space}{space}{space}{space}c{leftarrow}(2{times}b)-a
+18={space}{space}{space}{space}{space}{space}:if{space}c{epsilon}primes4
+19={space}{space}{space}{space}{space}{space}{space}{space}z{leftarrow}{downtackjot}c
+20={space}{space}{space}{space}{space}{space}{space}{space}:if{space}x[{deltastile}x]{equalunderbar}z[{deltastile}z]
+21={space}{space}{space}{space}{space}{space}{space}{space}{space}{space}Z{leftarrow},x{space}y{space}z{space}{lamp}{lamp}{space}2969{space}{space}6299{space}9629.
+22={space}{space}{space}{space}{space}{space}{space}{space}{space}{space}:return
+23={space}{space}{space}{space}{space}{space}{space}{space}:endif
+24={space}{space}{space}{space}{space}{space}:endif
+25={space}{space}{space}{space}:endif
+26={space}{space}:endfor
+27=:endfor
+Count=28
+UserDefined=1
+Undo=19 D 0 1 1, D 1 2 2, D 2 3 3, D 3 4 4, S 0 13 5, I 0 0 5 'Z', I 0 0 5 '{space}', I 0 0 5 '{leftarrow}', I 0 0 5 '{space}', I 0 0 5 'p', I 0 0 5 'r', I 0 0 5 'o', I 0 0 5 'b', I 0 0 5 'l', I 0 0 5 'e', I 0 0 5 'm', I 0 0 5 '4', I 0 0 5 '9', D 0 891 5
+CreationTime=01CDA186A764C0A0
+LastModTime=01CDA186A764C0A0
+[Fcns.0]
+0=problem49=2=:6
+Count=1
